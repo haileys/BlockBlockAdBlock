@@ -1,0 +1,15 @@
+{
+  "name": "BlockBlockAdBlock",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "Blocks the BlockAdBlock script",
+  "homepage_url": "https://github.com/charliesome/BlockBlockAdBlock",
+  "permissions": ["<all_urls>"],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "run_at": "document_start",
+      "js": ["blockblockadblock.js"]
+    }
+  ]
+}
