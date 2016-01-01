@@ -1,7 +1,7 @@
 function injected() {
     var descriptor = {
         value: {},
-        writeable: false,
+        writable: false,
         configurable: false,
     };
 
