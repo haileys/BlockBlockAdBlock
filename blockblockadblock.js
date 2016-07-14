@@ -3,7 +3,7 @@
 // @description This prevents the BlockAdBlock anti-Adblock script from working.
 // @name Block BlockAdBlock
 // @namespace greasyfork.org
-// @version 1.0.0
+// @version 0.0.1
 // @icon https://adblockplus.org/favicon.ico
 // @include *
 // @license MIT
